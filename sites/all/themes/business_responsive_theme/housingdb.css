@@ -1,0 +1,110 @@
+#logo img {
+  max-width: 70px;
+  max-height: 70px;
+}
+#site-title {
+  margin-top: 45px;
+}
+a,
+#footer a,
+.view-facilities .node h2.title a {
+  color: rgb(62, 127, 206);
+}
+.view-facilities .node h2.title a:hover {
+  text-decoration: underline;
+}
+
+a:hover {
+  color: rgb(15, 49, 164);
+}
+
+#main-menu {
+  border-bottom-color: rgb(62, 127, 206);
+}
+
+#main-menu a:hover,
+#main-menu li a.active {
+  background-color: rgb(62, 127, 206);
+}
+
+#header,
+#main-menu,
+#container {
+/*   max-width: 1200px; */
+}
+#footer {
+  background: none;
+  border: none;
+}
+.footer_credit {
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: rgb(39, 39,39);
+  border-top: 2px solid rgb(62, 127, 206);
+}
+.footer_inner_credit {
+  padding: 0px 23px;
+}
+
+.view-facilities .views-row div.node {
+  clear: both;
+}
+
+.view-facilities .views-row div.node .group-left {
+  float: left;
+  width: 400px;
+}
+.view-facilities .views-row div.node .group-right {
+  float: right;
+  margin-left: 50px;
+}
+
+.view-facilities .views-row div.node .group-left .field-label-inline .field-label,
+.view-facilities .views-row div.node .group-left .field-label-inline .field-items,
+.view-facilities .views-row div.node .group-left .field-label-inline .field-items .field-item {
+  display: inline;
+  float: none;
+}
+
+.node-facility .row {
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.node-facility .row.header-row {
+  padding-top: 15px;
+}
+.node-facility .location .tel {
+  display: none;
+}
+.node-facility .field-name-field-gender .field-item,
+.node-facility .field-name-field-programming-location .field-item {
+  display: inline;
+}
+.node-facility .field-name-field-gender .field-item:first-child:not(:only-child):after,
+.node-facility .field-name-field-programming-location .field-item:first-child:not(:only-child):after {
+  content: ', ';
+}
+.content.node-facility fieldset.form-wrapper {
+  top:0;
+}
+.content.node-facility .fieldset-wrapper {
+  margin-top: 0px;
+}
+
+.view-id-facilities form input[type="text"] {
+  width: 200px;
+}
+
+.view-id-facilities form .views-exposed-widget.views-submit-button,
+.view-id-facilities form #edit-field-psychiatric-medication-value-wrapper,
+.view-id-facilities form #edit-field-veterans-program-value-wrapper {
+  clear: left;
+}
+.view-id-facilities form .views-exposed-form .views-exposed-widget {
+  max-width: 50%;
+}
+
+#search-api-page-search-form #edit-submit-1 {
+  margin: 0;
+  margin-bottom: 5px;
+}
